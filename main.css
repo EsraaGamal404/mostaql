@@ -1,0 +1,492 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*start section header*/
+.header{
+  background-color: #2386c8 ;
+  height:12vh;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+a,.ul2 li{
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.logo{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0 19px;
+}
+.ul1 ul li {
+ display: inline-block;
+ margin: 0 10px;
+ position: relative;
+ right: 21vh;
+}
+.ul1 ul li a{
+  position: relative;
+  left: 30vh;
+}
+.ul2 ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.ul2 ul li a{
+  position: relative;
+  right: 10vh;
+  border: #fff 1px solid;
+  padding: 3px;
+}
+.glass{
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  right: 10vh; bottom: 1vh;
+}
+/*end section header*/
+/* start section work*/
+.work {
+  background-image: url(https://mostaql.hsoubcdn.com/public/assets/images/landing/header-bg-0.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body{
+  overflow-x: hidden;
+}
+
+.work h2 {
+  color: #fff;
+  line-height: 10vh;
+}
+
+.work p {
+  color: #fff;
+}
+
+.search-btn input {
+  border: none;
+  outline: none;
+  width: 70vh;
+}
+
+.search-btn {
+  border: #fff 1px solid;
+  padding: 10px;
+  background-color: #fff;
+  margin: 18px;
+}
+
+.search-btn button {
+  background-color:#2386c8  ;
+  color: #fff;
+  border: #2386c8  1px solid;
+  padding: 10px;
+}
+.btn {
+  background-color: transparent;
+  color: #fff;
+  border: #fff 1px solid;
+  padding: 10px;
+}
+.btn:hover {
+  background-color:#fff;
+  color: #2386c8;
+  transition: 0.5s;
+}
+span {
+  color: #fff;
+  margin: 19px;
+}
+/* end section work*/
+
+
+/* start section attchment*/
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.parent h2 {
+ text-align: center;
+  font-size: 30px;
+  color: #2386c8;
+  font-weight: 400;
+  padding: 20px;
+}
+.parent{
+  padding: 50px;
+}
+.card {
+  width: 50vw;
+  border: none;
+}
+.card h4{
+  font-weight: 400;
+}
+.card p {
+  color:#545454 ;
+  font-size: 16px;
+    line-height: 22px;
+}
+.viedeo {
+  width: 90vh;
+  bottom: 62vh;
+  height: 50vh;
+}
+.check{
+color: #2386c8;
+font-size: 18px;
+position: relative;
+left: 4vh; top: 4vh;
+}
+/* end section attchment*/
+
+/* start section help*/
+
+.Help {
+  background-color: #f9f9f9;
+ padding: 40px;
+}
+.Help h2,
+.quality h2,.mostaql h2 {
+  color: #2386c8;
+  text-align: center;
+ font-weight: 400;
+ font-size: 30px;
+  padding: 30px; 
+}
+.esraa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ padding: 5px;
+}
+.esraa img {
+ position: relative;
+ right: 25vh;
+ width: 80px;
+}
+.esraa h4 {
+ text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.esraa p {
+  color: #545454;
+ font-size: 15px;
+}
+
+/* start section quality */
+.quality {
+  background-color: #fff;
+  padding:30px;
+}
+.folder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.folder p{
+   font-size: 15px;
+    line-height: 22px; 
+    color: #545454;
+    font-weight: 400;
+}
+.folder h4 {
+   line-height: 37px;
+  font-size: 25px; 
+  font-family: sans-serif;
+  font-weight: 500;
+  color:#212529 ;
+}
+/* end section quality */
+
+/* start section mostaql */
+
+.mostaql {
+  background-color: #f9f9f9;
+}
+.mostaql p {
+ text-align: center;
+  font-size: 18px;
+}
+.type img{
+  width: 90px;
+  position: relative;
+  right: 15vh;
+}
+.type2 img{
+  position: relative;
+  right:10vh;
+}
+.type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 20px;
+  gap: 15vh;
+  align-items: center;
+}
+.services:hover,
+.program:hover,
+.enginer:hover,
+.audio:hover,
+.product:hover,
+.writing:hover,
+.data:hover,
+.practise:hover {
+  color: #2386c8;
+  cursor: pointer;
+}
+.type h4 {
+  font-size: 18px;
+}
+.type2 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  gap: 21vh;
+  position: relative;
+  right: 9vh;
+}
+/* end section mostaql */
+/* start section more */
+
+.More {
+  background-color: #2386c8;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #fff;
+}
+.More img {
+  width: 100vh;
+}
+.More2 h3 {
+ font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+}
+.More2 h5{
+  font-weight: 400;
+  padding: 10px;
+}
+.More2 ul {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 6vh;
+  font-weight: 400;
+  padding: 10px;
+}
+.More3 {
+  background-color: #fff;
+  color: #2386c8;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 17px;
+}
+.More3:hover {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: none;
+}
+/* end section more */
+/* start section opinion */
+.opinion {
+  background-color: #fff;
+}
+.profile img {
+  width: 80px;
+  border: #fff 1px solid;
+  border-radius: 90px;
+  display: flex;
+  justify-content: flex-start;
+  float: right;
+}
+.info p {
+  color: #545454;
+  font-family: Noto Naskh Arabic, Open Sans, Helvetica Neue, Helvetica, Arial, "sans-serif";
+  line-height: 28px;
+  width:90vh;
+padding: 10px;
+}
+.info h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    color: #212529;
+    position: relative;
+    right: 4vh;
+}
+.info h5 {
+  color: #787878;
+  font-size: 14px;
+  margin-bottom: 0;
+  position: relative;
+  right: 4vh;
+  font-weight: 400;
+}
+.info a {
+  color: #787878;
+    display: block;
+    font-family: Noto Naskh Arabic, Open Sans, Helvetica Neue, Helvetica, Arial, "sans-serif";
+    font-size: 14px;
+    margin-top: 14px;
+    text-decoration: underline;
+    position: relative; right: 15vh;
+}
+.character {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+/* end section opinion */
+/* start section question */
+.accordion-item{
+background-color:transparent;
+border: none;
+width: 70%;
+margin: auto;
+}
+  .accordion-button{
+    background-color:transparent;
+    font-size: 18px;
+    padding: 0px 0;
+  font-weight: 500;
+  height: 1px;  
+  }
+  .accordion-button::after{
+    content: "";
+   
+  }
+ #panelsStayOpen-faq-3{
+  position: relative;
+  left: 30vh;
+ }
+ /* end section question */
+/* start section ready */
+ .ready {
+  background-color:#2386c8;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ padding: 40px;
+}
+.ready h2 {
+  color: #fff;
+}
+.ready1 {
+  background-color: #fff;
+  color:#2386c8;
+  border: 1px solid #fff;
+  padding: 11px;
+}
+.ready1:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* end section ready */
+/* start section project */
+.progcit {
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ padding: 50px;
+}
+.progcit1 {
+  display: block;
+}
+.progcit-mostqal h5 {
+ padding: 20px;
+ font-weight: 400;
+}
+.progcit-mostqal a {
+  color: #242323;
+  line-height: 30px;
+}
+.icon-contact h5{
+ font-weight: 400;
+}
+.face,.twitt{
+  font-size: 30px;
+  color: #2386c8;
+}
+.free {
+  position: relative;
+  top: 35vh; left: 37vh;
+}
+.paypal,.visa,.mast{
+  font-size: 30px;
+  color: #545454;
+}
+/* end section project */
+/* start section hasop */
+.hasop {
+  background-color: #f3eeee;
+ display: flex;
+  color:#545454;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.hasop h6{
+  font-weight:400;
+}
+/* end section hasop */
+/* start section me */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.me {
+padding: 50px;
+margin: auto;
+width: 80%;
+}
+.me img {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+.manger h6 {
+ font-size: 15px;
+ font-weight: 400;
+}
+.manger h5 {
+  color: #777;
+  font-size: 11px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+.footer2{
+display: flex;
+}
+/* end section me */
